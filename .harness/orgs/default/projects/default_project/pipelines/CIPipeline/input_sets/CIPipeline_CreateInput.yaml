@@ -1,0 +1,14 @@
+inputSet:
+  name: CI-Pipeline_CreateInput
+  identifier: CIPipeline_CreateInput
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: CIPipeline
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: Main
